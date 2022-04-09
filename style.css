@@ -1,0 +1,84 @@
+/* budget tracker css */
+
+h1 {
+    text-align: center;
+}
+.totals{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.incomeStyle,
+.expenseStyle,
+.totalStyle{
+    padding-right: 60px;
+    padding-left: 60px;
+    bordeR: 3px solid black;
+    height: 100px;
+}
+.income,
+.expense,
+.total {
+    text-align: center;
+}
+.userData{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.itemStyle,
+.pickStyle,
+.valueStyle{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.pickValue{
+    width: 100px;
+}
+.add{
+    width: 50px;
+    height: 21.5px;
+}
+.hide{
+    display: none;
+}
+.hideAll{
+    display: none;
+}
+.valueType{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.incomeType,
+.expenseType{
+    border: 1px solid black;
+    width: 100px;
+}
+
+.display{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.topPart{
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.green{
+    background-color: greenyellow;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
